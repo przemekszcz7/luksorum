@@ -1,0 +1,6 @@
+{
+  "name": "Luksorum Nieruchomości Radom",
+  "description": "Profesjonalna agencja nieruchomości komercyjnych w Radomiu. Biura, lokale usługowe, magazyny i działy komercyjne na wynajem i sprzedaż.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

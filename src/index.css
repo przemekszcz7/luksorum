@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", serif;
+  --font-sans: "Inter", sans-serif;
+  --color-gold-50: #FAF6F0;
+  --color-gold-100: #F3EAD8;
+  --color-gold-200: #ECCF9E;
+  --color-gold-500: #C5A880;
+  --color-gold-600: #B4966B;
+  --color-gold-700: #9D7F54;
+  --color-gold-800: #7C623E;
+  --color-gold-900: #574328;
+  --color-brand-800: #1C2434;
+  --color-brand-900: #0F1520;
+}
+
+/* Custom Scrollbar for smooth elegant UX */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #C5A880;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #1C2434;
+}
+
+html {
+  scroll-behavior: smooth;
+}
